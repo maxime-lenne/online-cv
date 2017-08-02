@@ -20,8 +20,8 @@ pic: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and pr
 #sidebar links
 email: maxime.lenne@gmail.com
 phone: +33 6 29 45 38 14
-#site: 
-medium: @MaximeLenne #do not add http://
+#site: #do not add http://s
+medium: '@MaximeLenne'
 linkedin: maximelenne
 github: maxime-lenne
 twitter: '@MaximeLenne'
