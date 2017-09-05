@@ -313,6 +313,9 @@ p {
     body {
       padding: 0px;
     }
+    a[href]:after {
+      content: none;
+    }
     .sidebar-wrapper {
       width: 240px;
       min-height: auto; 
