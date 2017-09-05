@@ -318,7 +318,8 @@ p {
     }
     .sidebar-wrapper {
       width: 240px;
-      min-height: 0px; 
+      min-height: 0px;
+      height: auto; 
     }
     .main-wrapper {
       padding: 0;
