@@ -318,7 +318,8 @@ p {
       min-height: auto; 
     }
     .main-wrapper {
-      padding-right: 300px;
+      padding: 0;
+      padding-right: 280px;
     }
     .section .item {
       page-break-inside: avoid;
