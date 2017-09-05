@@ -330,6 +330,12 @@ p {
     .section .item {
       page-break-inside: avoid;
     }
+    .skillset .level-bar {
+      background: #f5f5f5!important;
+    }
+    .skillset .level-bar-inner {
+      background: #7bc2d3!important;
+    }
   }
 }
 /* Large devices (large desktops, 1200px and up) */
