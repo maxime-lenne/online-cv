@@ -320,12 +320,10 @@ p {
       width: 240px;
       min-height: 0px;
       height: auto; 
-      position: relative;
-      float: right;
     }
     .main-wrapper {
       padding: 0;
-      padding-right: 0px; /*280*/
+      padding-right: 280px;
     }
     .profile-container {
       padding-top: 0;
