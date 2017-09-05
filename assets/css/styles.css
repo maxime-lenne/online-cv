@@ -272,21 +272,23 @@ p {
   color: #fb866a;
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-  .main-wrapper {
-    padding: 30px;
-  }
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
+@media no print {
+  @media (max-width: 767px) {
+    .sidebar-wrapper {
+      position: static;
+      width: inherit;
+    }
+    .main-wrapper {
+      padding: 30px;
+    }
+    .main-wrapper .time {
+      position: static;
+      display: block;
+      margin-top: 5px;
+    }
+    .main-wrapper .upper-row {
+      margin-bottom: 0;
+    }
   }
 }
 /* Small devices (tablets, 768px and up) */
