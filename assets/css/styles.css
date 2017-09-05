@@ -318,7 +318,7 @@ p {
     }
     .sidebar-wrapper {
       width: 240px;
-      min-height: auto; 
+      min-height: 0px; 
     }
     .main-wrapper {
       padding: 0;
