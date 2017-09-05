@@ -310,6 +310,9 @@ p {
 }
 @media print {
   @media (max-width: 767px) {
+    body {
+      padding: 0px;
+    }
     .sidebar-wrapper {
       width: 240px;
       min-height: auto; 
