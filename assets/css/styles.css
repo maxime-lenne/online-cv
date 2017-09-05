@@ -310,7 +310,12 @@ p {
 }
 @media print {
   @media (max-width: 767px) {
-
+    .sidebar-wrapper {
+      width: 240px;
+    }
+    .main-wrapper {
+      padding-right: 300px;
+    }
   }
 }
 /* Large devices (large desktops, 1200px and up) */
