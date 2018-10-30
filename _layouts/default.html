@@ -2,31 +2,30 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="<footer></footer>"> <!--<![endif]-->
 {% include head.html %}
 
 <body>
 	<nav class="text-center hidden-print">
 		<ul class="list-unstyled list-inline">
-			<li><a href="https://maxime-lenne.github.io/fr" class="">fr</a></li>
-			| <li><a href="https://maxime-lenne.github.io/" class="active">en</a></li>
+			<li><a href="https://maxime-lenne.github.io/" class="">fr</a></li>
+			| <li><a href="https://maxime-lenne.github.io/en" class="active">en</a></li>
 		</ul>
 	</nav>
     <div class="wrapper">
         {% include sidebar.html %}
-        
+
         <div class="main-wrapper">
-           
+
            {{content}}
-            
+
         </div><!--//main-body-->
     </div>
- 
+
 {% include footer.html %}
- 
+
 {% include scripts.html %}
 </body>
-</html> 
-
+</html>
